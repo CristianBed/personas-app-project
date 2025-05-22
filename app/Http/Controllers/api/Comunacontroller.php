@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\api;
 
+use App\Http\Controllers\Controller;
+use App\Models\Comuna;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
-use App\Models\Comuna; // Importa el modelo Municipio
-use Illuminate\Support\Facades\DB; // Importa la clase DB para realizar consultas a la base de datos
 
 class Comunacontroller extends Controller
 {
